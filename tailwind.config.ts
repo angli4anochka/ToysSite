@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom lovable.dev color palette
+				cream: '#F9F7F4',
+				blush: '#F4C2A1',
+				turquoise: '#A8D8E8',
+				vanilla: '#F7F3E9',
+				'soft-pink': '#F8E8E8',
+				'warm-cream': '#FBF8F3'
+			},
+			fontFamily: {
+				'rounded': ['Nunito', 'system-ui', 'sans-serif'],
+				'story': ['Caveat', 'cursive'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +96,21 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'gentle-fade': {
+					'0%': { opacity: '0', transform: 'translateY(20px)' },
+					'100%': { opacity: '1', transform: 'translateY(0px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'gentle-fade': 'gentle-fade 0.8s ease-out'
 			}
 		}
 	},
