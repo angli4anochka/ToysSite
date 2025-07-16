@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# Магазин игрушек ручной работы
 
-## Project info
+Красивый и уютный сайт для продажи игрушек ручной работы, созданных с любовью.
 
-**URL**: https://lovable.dev/projects/cc66b31c-808b-4bcf-9b80-e2ac1e96bc5b
+## Особенности
 
-## How can I edit this code?
+- 🧸 Каталог ватных игрушек
+- 💌 Форма обратной связи с отправкой на email
+- 📰 Подписка на рассылку
+- 🛒 Корзина покупок
+- 📱 Адаптивный дизайн
 
-There are several ways of editing your application.
+## Технологии
 
-**Use Lovable**
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn/ui
+- EmailJS для отправки писем
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cc66b31c-808b-4bcf-9b80-e2ac1e96bc5b) and start prompting.
+## Установка и запуск
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Клонируйте репозиторий
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
+```
 
-**Use your preferred IDE**
+2. Установите зависимости
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Запустите проект локально
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Для production сборки
+```bash
+npm run build
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Настройка EmailJS
 
-**Use GitHub Codespaces**
+См. файл `EMAILJS_SETUP.md` для настройки отправки писем.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Деплой на GitHub Pages
 
-## What technologies are used for this project?
+См. файл `GITHUB_PAGES_SETUP.md` для инструкций по развертыванию.
 
-This project is built with:
+## Автор
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Сайт создан для Ирины - мастера игрушек ручной работы.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/cc66b31c-808b-4bcf-9b80-e2ac1e96bc5b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Сделано с ❤️
